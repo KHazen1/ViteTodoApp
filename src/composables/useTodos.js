@@ -4,12 +4,12 @@ import axios from 'axios';
 const todos = ref([]);
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_BASEURL,
+    baseURL: import.meta.env.VITE_API_URL,
     params: {
-        username: import.meta.env.VITE_USERNAME,
-        password: import.meta.env.VITE_PASSWORD
+      username: import.meta.env.VITE_API_USER,
+      password: import.meta.env.VITE_API_PASS,
     },
-})
+  })
 
 const useTodos = () => {
 
