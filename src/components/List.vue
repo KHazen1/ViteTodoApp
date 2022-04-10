@@ -21,7 +21,7 @@
            :class="isCompleted ? 'text-purple-600 hover:bg-purple-400' : 'text-orange-600 hover:bg-orange-400'" 
            class="w-full px-4 py-2 font-bold text-center transition-colors duration-500 bg-gray-300 rounded-lg hover:cursor-pointer hover:text-gray-200"
           >
-           {{ todo.content }}
+           {{ todo.text }}
           </li>
         </ul>
       </div>
